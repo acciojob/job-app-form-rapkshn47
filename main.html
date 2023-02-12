@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form action="./assignment.html" method="get">
+	<form method="post">
         <div>
             <label for="name">
                 Name :
@@ -25,7 +25,7 @@
                 Gender :
             </label>
             Male
-            <input type="radio" name="gender" id="" value="male">
+            <input type="radio" name="gender" id="" value="male" required>
             Female
             <input type="radio" name="gender" id="" value="female">
         </div>
@@ -54,6 +54,12 @@
                 Password :
             </label>
             <input type="password" name="" id="password" required>
+        </div>
+		<div>
+            <label for="portfolio">
+                Portfolio-link :
+            </label>
+            <input type="text" name="" id="portfolio" required>
         </div>
         <button type="submit">Submit</button>
     </form>
